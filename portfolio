@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AARON SEN | Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #0b0b0b;
+      --text-color: #e0e0e0;
+      --highlight-color: #00ff99;
+      --card-bg: #1a1a1a;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: #000;
+      color: var(--highlight-color);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: var(--highlight-color);
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: var(--highlight-color);
+      border-bottom: 2px solid var(--highlight-color);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .contact a {
+      color: var(--highlight-color);
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .project, .info-block {
+      background-color: var(--card-bg);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #111;
+      color: #888;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AARON SEN</h1>
+    <p>Web Developer | Programmer | Tech Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#career">Career</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+	<section id="contact">
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="info-block">
+      <p>Hi, I'm <strong>Aaron sen</strong> currently pursuing my B.Tech in Computer Science Engineering at Amal Jyothi College of Engineering, Kanjirappally. I have a strong interest in software engineering and enjoy exploring the ever-evolving world of technology. From coding in Python and C to designing interfaces in Figma, I believe in hands-on learning through projects, workshops, and hackathons. I'm a keen learner who loves building and problem-solving</p>
+    </div>
+  </section>
+
+  <section id="career">
+    <h2>Career</h2>
+    <div class="info-block">
+      <p>I’m pursuing a degree in Computer Science. My goal is to work in web/app development </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="info-block">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>C,Python,Figma</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="info-block contact">
+      <p>Email: aaronsen2028@cs.ajce.in</p>
+      <p>
+        <a href="https://www.linkedin.com/in/aaron-sen-a81a92327" target="_blank">LinkedIn</a>
+        |
+        <a href="https://www.instagram.com/invites/contact/?igsh=ix315jwobaoc&utm_content=o4xytkn" target="_blank">Instagram</a>
+    <p><section id="contact">
+    <h2>Contact Me</h2>
+  <form class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+    </p>
+    </div>
+  </section>
+
+  <footer>
+    <p></p>
+  </footer>
+
+</body>
+</html>
